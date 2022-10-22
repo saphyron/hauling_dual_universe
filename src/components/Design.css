@@ -1,0 +1,58 @@
+.Tabs {
+    width: 90%;
+    height: auto;
+    min-height: 600px;
+    background: #053742;
+    margin: 1.5rem auto 1.5rem;
+    padding: 2rem 1rem;
+    color: #E8F0F2;
+    border-radius: 2rem;
+    
+}
+ul.nav {
+    margin: 0 auto 0rem;
+    display: auto;
+    align-items: none;
+    justify-content: none;
+    border: 0px solid #39A2DB;
+    border-radius: 2rem;
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+  ul.nav li {
+    width: 100%;
+    padding: 0rem;
+    list-style: none;
+    text-align: none;
+    cursor: auto;
+    transition: all 0.7s;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+  ul.nav li:hover {
+    background: #053742;
+  }
+  ul.nav li.active {
+    background: #39A2DB;
+  }
+
+  #tabPage {
+    display: grid;
+    grid-template-columns: [first] 30% [second] 30% [third] 40%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .AU p,
+  .NB p,
+  .RB p,
+  .U p,
+  .UL p,
+  .BL p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+  

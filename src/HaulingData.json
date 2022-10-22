@@ -1,0 +1,225 @@
+{
+    "Max15TSpaceSafe": {
+        "Type": "Space",
+        "KergonperSU": 25,
+        "NitronperKM": 10,
+        "MaxTonnage": 15000,
+        "BasicPayment": 15000,
+        "Name": "Max 15T Space Safe"
+    },
+    "Max40TSpaceSafe": {
+        "Type": "Space",
+        "KergonperSU": 25,
+        "NitronperKM": 15,
+        "MaxTonnage": 40000,
+        "BasicPayment": 15000,
+        "Name": "Max 40T Space Safe"
+    },
+    "Max80TSpaceSafe": {
+        "Type": "Space",
+        "KergonperSU": 45,
+        "NitronperKM": 30,
+        "MaxTonnage": 80000,
+        "BasicPayment": 15000,
+        "Name": "Max 80T Space Safe"
+    },
+    "Max150TSpaceSafe": {
+        "Type": "Space",
+        "KergonperSU": 105,
+        "NitronperKM": 50,
+        "MaxTonnage": 150000,
+        "BasicPayment": 15000,
+        "Name": "Max 150T Space Safe"
+    },
+    "Max300TSpaceSafe": {
+        "Type": "Space",
+        "KergonperSU": 160,
+        "NitronperKM": 90,
+        "MaxTonnage": 300000,
+        "BasicPayment": 15000,
+        "Name": "Max 300T Space Safe"
+    },
+    "Max600TSpaceSafe": {
+        "Type": "Space",
+        "KergonperSU": 210,
+        "NitronperKM": 150,
+        "MaxTonnage": 600000,
+        "BasicPayment": 15000,
+        "Name": "Max 600T Space Safe"
+    },
+    "Max1000TSpaceSafe": {
+        "Type": "Space",
+        "KergonperSU": 500,
+        "NitronperKM": 280,
+        "MaxTonnage": 1000000,
+        "BasicPayment": 15000,
+        "Name": "Max 1000T Space Safe"
+    },
+    "Max15TPlanetSafe": {
+        "Type": "Planet",
+        "KergonperSU": 0,
+        "NitronperKM": 10,
+        "MaxTonnage": 15000,
+        "BasicPayment": 5000,
+        "Name": "Max 15T Planet Safe"
+    },
+    "Max40TPlanetSafe": {
+        "Type": "Planet",
+        "KergonperSU": 0,
+        "NitronperKM": 15,
+        "MaxTonnage": 40000,
+        "BasicPayment": 5000,
+        "Name": "Max 40T Planet Safe"
+    },
+    "Max80TPlanetSafe": {
+        "Type": "Planet",
+        "KergonperSU": 0,
+        "NitronperKM": 30,
+        "MaxTonnage": 80000,
+        "BasicPayment": 5000,
+        "Name": "Max 80T Planet Safe"
+    },
+    "Max150TPlanetSafe": {
+        "Type": "Planet",
+        "KergonperSU": 0,
+        "NitronperKM": 50,
+        "MaxTonnage": 150000,
+        "BasicPayment": 5000,
+        "Name": "Max 150T Planet Safe"
+    },
+    "Max300TPlanetSafe": {
+        "Type": "Planet",
+        "KergonperSU": 0,
+        "NitronperKM": 90,
+        "MaxTonnage": 300000,
+        "BasicPayment": 5000,
+        "Name": "Max 300T Planet Safe"
+    },
+    "Max600TPlanetSafe": {
+        "Type": "Planet",
+        "KergonperSU": 0,
+        "NitronperKM": 150,
+        "MaxTonnage": 600000,
+        "BasicPayment": 5000,
+        "Name": "Max 600T Planet Safe"
+    },
+    "Max1000TPlanetSafe": {
+        "Type": "Planet",
+        "KergonperSU": 0,
+        "NitronperKM": 280,
+        "MaxTonnage": 1000000,
+        "BasicPayment": 5000,
+        "Name": "Max 1000T Planet Safe"
+    },
+    "Max40TPureSpace": {
+        "Type": "Pure Space",
+        "KergonperSU": 0,
+        "NitronperKM": 5,
+        "MaxTonnage": 40000,
+        "BasicPayment": 15000,
+        "Name": "Max 40T Pure Space"
+    },
+    "Max80TPureSpace": {
+        "Type": "Pure Space",
+        "KergonperSU": 10,
+        "NitronperKM": 0,
+        "MaxTonnage": 80000,
+        "BasicPayment": 15000,
+        "Name": "Max 80T Pure Space"
+    },
+    "Max150TPureSpace": {
+        "Type": "Pure Space",
+        "KergonperSU": 15,
+        "NitronperKM": 0,
+        "MaxTonnage": 150000,
+        "BasicPayment": 15000,
+        "Name": "Max 150T Pure Space"
+    },
+    "Max300TPureSpace": {
+        "Type": "Pure Space",
+        "KergonperSU": 25,
+        "NitronperKM": 0,
+        "MaxTonnage": 300000,
+        "BasicPayment": 15000,
+        "Name": "Max 300T Pure Space"
+    },
+    "Max600TPureSpace": {
+        "Type": "Pure Space",
+        "KergonperSU": 50,
+        "NitronperKM": 0,
+        "MaxTonnage": 600000,
+        "BasicPayment": 15000,
+        "Name": "Max 600T Pure Space"
+    },
+    "Max1000TPureSpace": {
+        "Type": "Pure Space",
+        "KergonperSU": 60,
+        "NitronperKM": 0,
+        "MaxTonnage": 1000000,
+        "BasicPayment": 15000,
+        "Name": "Max 1000T Pure Space"
+    },
+    "Max15TSpaceUnSafe": {
+        "Type": "Unsafe Space",
+        "KergonperSU": 25,
+        "NitronperKM": 10,
+        "Warpcells": 1,
+        "MaxTonnage": 15000,
+        "BasicPayment": 500000,
+        "Name": "Max 15T Space UnSafe"
+    },
+    "Max40TSpaceUnSafe": {
+        "Type": "Unsafe Space",
+        "KergonperSU": 25,
+        "NitronperKM": 15,
+        "Warpcells": 1,
+        "MaxTonnage": 40000,
+        "BasicPayment": 500000,
+        "Name": "Max 40T Space UnSafe"
+    },
+    "Max80TSpaceUnSafe": {
+        "Type": "Unsafe Space",
+        "KergonperSU": 45,
+        "NitronperKM": 30,
+        "Warpcells": 1,
+        "MaxTonnage": 80000,
+        "BasicPayment": 500000,
+        "Name": "Max 80T Space UnSafe"
+    },
+    "Max150TSpaceUnSafe": {
+        "Type": "Unsafe Space",
+        "KergonperSU": 105,
+        "NitronperKM": 50,
+        "Warpcells": 1,
+        "MaxTonnage": 150000,
+        "BasicPayment": 500000,
+        "Name": "Max 150T Space UnSafe"
+    },
+    "Max300TSpaceUnSafe": {
+        "Type": "Unsafe Space",
+        "KergonperSU": 160,
+        "NitronperKM": 90,
+        "Warpcells": 1,
+        "MaxTonnage": 300000,
+        "BasicPayment": 500000,
+        "Name": "Max 300T Space UnSafe"
+    },
+    "Max600TSpaceUnSafe": {
+        "Type": "Unsafe Space",
+        "KergonperSU": 210,
+        "NitronperKM": 150,
+        "Warpcells": 1,
+        "MaxTonnage": 600000,
+        "BasicPayment": 500000,
+        "Name": "Max 600T Space UnSafe"
+    },
+    "Max1000TSpaceUnSafe": {
+        "Type": "Unsafe Space",
+        "KergonperSU": 500,
+        "NitronperKM": 280,
+        "Warpcells": 1,
+        "MaxTonnage": 1000000,
+        "BasicPayment": 500000,
+        "Name": "Max 1000T Space UnSafe"
+    }
+}

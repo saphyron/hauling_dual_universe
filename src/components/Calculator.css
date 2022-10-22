@@ -1,0 +1,67 @@
+form input[type="submit"] {
+    width: 20%;
+    padding: 32px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
+#Udstyrs-form {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 32px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "header header header"
+    "valgtType udstyrType udstyrType"
+    "valgtNavn udstyrNavn udstyrNavn"
+    "midfield midfield midfield"
+    "nyNavn Navn Navn"
+    "nyType Type Type"
+    "nyNote Note Note"
+    "sub1 sub2 sub3";
+}
+    .header { grid-area: header; }
+    .valgtType { grid-area: valgtType; }
+    .udstyrType { 
+        grid-area: udstyrType;
+        color: black; 
+    }
+    .valgtNavn { grid-area: valgtNavn; }
+    .udstyrNavn { 
+        grid-area: udstyrNavn; 
+        color: black; 
+    }
+    .midfield { grid-area: midfield; }
+    .nyNavn { grid-area: nyNavn; }
+    .Navn { grid-area: Navn; }
+    .nyType { grid-area: nyType; }
+    .Type { grid-area: Type; }
+    .nyNote { grid-area: nyNote; }
+    .Note { grid-area: Note; }
+    .sub1 { grid-area: sub1; }
+    .sub2 { grid-area: sub2; }
+    .sub3 { grid-area: sub3; }
+
+form input[type=submit] {
+    width: 150px;
+    padding: 20px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
