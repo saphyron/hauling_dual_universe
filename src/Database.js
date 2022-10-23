@@ -111,6 +111,9 @@ export async function calculateReward(Collateral, Type, Contract, Distance, disk
     const docPriceSnap = await getDoc(docPriceRef);
     const percentageReward = Collateral * modifier;
     let warpCellsExists = 0;
+    if (Distance > 40) {
+      Distance = 40;
+    }
     if (docSnap.data().Warpcells) {
       warpCellsExists = docSnap.data().Warpcells;
     }
