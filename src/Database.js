@@ -42,7 +42,7 @@ function generateUUID() { // Public Domain/MIT
   });
 }
 
-export async function opretData(data) {
+async function opretData(data) {
   try {
     await addDoc(collection(db, "Hauling"), data)
   } catch (e) {
@@ -111,8 +111,8 @@ export async function calculateReward(Collateral, Type, Contract, Distance, disk
     const docPriceSnap = await getDoc(docPriceRef);
     const percentageReward = Collateral * modifier;
     let warpCellsExists = 0;
-    if (Distance > 40) {
-      Distance = 40;
+    if (Distance > 20) {
+      Distance = 20;
     }
     if (docSnap.data().Warpcells) {
       warpCellsExists = docSnap.data().Warpcells;
@@ -218,8 +218,7 @@ const DBfunctions = {
   createContract,
   calculateReward,
   getContractsSizes,
-  getTypeOfContract,
-  opretData
+  getTypeOfContract
 };
 
 export default DBfunctions;

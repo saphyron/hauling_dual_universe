@@ -52,10 +52,16 @@ function ContentCalculator(props) {
         } else {
             setLoaded(false);
         }
+        if (dropdownType) {
+            dropdownType.pop();
+        }
         dropdownType.push(event.value);
     }
 
     const fillContractSize = async (event) => {
+        if (typeOptions) {
+            dropdownContract.pop();
+        }
         dropdownContract.push(event.value);
     }
 
