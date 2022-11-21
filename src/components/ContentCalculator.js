@@ -147,11 +147,11 @@ function ContentCalculator(props) {
                             <div className="nyReward"><label>Reward: </label></div>
                             <div className="Reward"><label type="label" />{labelText}</div>
                             <div className="nyCollateral"><label><br />Collateral: </label></div>
-                            <div className="Collateral"><input type="text" name={'Collateral'} /></div>
+                            <div className="Collateral"><input type="number" name={'Collateral'} /></div>
                             <div className="nyDistance"><label>Distance(in SU): </label></div>
-                            <div className="Collateral"><input type="text" name={'Distance'} /></div>
+                            <div className="Distance"><input type="number" name={'Distance'} /></div>
                             <div className="nyDistanceKM"><label>Atmospheric Distance(in KM):<br />Only use if Type is Planet. </label></div>
-                            <div className="DistanceKM"><input type="textarea" name={'DistanceKM'} /></div>
+                            <div className="DistanceKM"><input type="number" name={'DistanceKM'} /></div>
                             <div className="sub1"><input type="submit" value="Check Reward" onClick={checkReward} /></div>
                             <div className="nyStart Location"><label><br /><br />Start Location: </label></div>
                             <div className="Start Location"><input type="text" name={'Start Location'} /></div>

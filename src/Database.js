@@ -119,9 +119,9 @@ export async function calculateReward(Collateral, Type, Contract, Distance, disk
     }
     let result = 0;
     const tempReward = docSnap.data().BasicPayment +
-      ((docSnap.data().KergonperSU * Distance * docPriceSnap.data().Kergon) +
+      (((docSnap.data().KergonperSU * Distance * docPriceSnap.data().Kergon) +
       (docSnap.data().NitronperKM * disKMNitron * docPriceSnap.data().Nitron) +
-      (warpCellsExists * docPriceSnap.data().WarpCell)) * (1 + modifier);
+      (warpCellsExists * docPriceSnap.data().WarpCell)) * (1 + modifier)) * 2;
 
 
     if (percentageReward >= tempReward) {
@@ -129,7 +129,7 @@ export async function calculateReward(Collateral, Type, Contract, Distance, disk
     } else {
       result = tempReward;
     }
-    return result;
+    return parseInt(result);
   } catch (e) {
     console.log(e)
   }
